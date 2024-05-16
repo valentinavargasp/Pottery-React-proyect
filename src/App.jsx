@@ -1,17 +1,18 @@
-
+import { ItemListContainer } from './components/ItemListContainer'
+import { Header } from './components/header/Header'
+import './css/main.css'
 
 function App() {
 
 
   return (
     <>
-    <MostrarUsuario/>
+    <Header />
+    <ItemListContainer greeting={'Juro solemnemente que mis intenciones no son buenas. Sitio en construcción🚧'}/>
     </>
   )
 }
 
-function MostrarUsuario() {
-  return <h1>Carpi</h1>
-}
+
 
 export default App

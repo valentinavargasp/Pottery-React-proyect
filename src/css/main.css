@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #76290b;
+    padding: 1rem;
+}
+.menuNav{
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+}
+
+.menuNav li a{
+    text-decoration: none;
+    color: #FEFBF6;
+}
+
+.logoImg{
+    width: 150px;
+    margin-left: 15px;
+}
+
+.Cart{
+    width: 100px;
+}
+
+.Cart img{
+    width: 25px;
+}
+
+.welcomeText{
+    min-height: 50vh;
+    display: grid;
+    place-content: center;
+}
+.welcomeText h1{
+    font-size: 2rem;
+}
