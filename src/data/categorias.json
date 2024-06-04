@@ -1,0 +1,14 @@
+[
+    {
+        "id": "tazas",
+        "nombre": "Tazas"
+    },
+    {
+        "id": "tazones",
+        "nombre": "Tazones"
+    },
+    {
+        "id": "platos",
+        "nombre": "Platos"
+    }
+]
