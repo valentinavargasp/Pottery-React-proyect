@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import data from "../data/productos.json";
-import { ItemDetail } from './ItemDetail';
-
+import { ItemDetail } from "./ItemDetail";
 
 export const ItemDetailContainer = () => {
     let { itemId } = useParams();
@@ -10,11 +9,9 @@ export const ItemDetailContainer = () => {
 
     useEffect(() => {
         setProducto(data.find((prod) => prod.id === parseInt(itemId)));
-    }, [itemId])
-
+    }, [itemId]);
 
     return (
-        <div>{producto ? <ItemDetail producto={producto}/> : "Cargando..."}</div>
-    )
-}
-
+        <div>{producto ? <ItemDetail producto={producto} /> : "Cargando..."}</div>
+    );
+};

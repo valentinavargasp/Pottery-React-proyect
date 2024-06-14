@@ -5,11 +5,12 @@ import { CartWidget } from './CartWidget'
 import { Link } from 'react-router-dom'
 
 export const Header = () => {
+
   return (
     <header className='header'>
         <Link to="/"> <img className='logoImg' src={logo} alt="" /> </Link>
     <NavBar />
-    <CartWidget />
+    <CartWidget/>
     </header>
   )
 }
