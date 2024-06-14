@@ -5,6 +5,7 @@
         "precio": 19.99,
         "imagen": "/src/assets/img/glasses.jpg",
         "descripcion": "Taza de cerámica con relieve",
+        "stock": 5,
         "categoria": {
             "id": "tazas",
             "nombre": "Tazas"
@@ -16,6 +17,7 @@
         "precio": 19.99,
         "imagen": "/src/assets/img/luna.jpg",
         "descripcion": "Taza de cerámica Luna Lovegood",
+        "stock": 2,
         "categoria": {
             "id": "tazas",
             "nombre": "Tazas"
@@ -27,6 +29,7 @@
         "precio": 19.99,
         "imagen": "/src/assets/img/934.jpg",
         "descripcion": "Taza pintada a mano estación 9 3/4",
+        "stock": 8,
         "categoria": {
             "id": "tazas",
             "nombre": "Tazas"
@@ -38,6 +41,7 @@
         "precio": 19.99,
         "imagen": "/src/assets/img/acciorings.jpg",
         "descripcion": "Plato pequeño, ideal para ser utilizado como objeto decorativo.",
+        "stock": 4,
         "categoria": {
             "id": "platos",
             "nombre": "Platos"
@@ -49,6 +53,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/bowls.jpg",
         "descripcion": "Tazones Potions. Tres variedades: Love Potion, Wolfsbane Potion, Polyjuice Poison.",
+        "stock": 5,
         "categoria": {
             "id": "tazones",
             "nombre": "Tazones"
@@ -60,6 +65,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/cauldron.jpg",
         "descripcion": "Tazón caldero con tapa y cuchara pequeña.",
+        "stock": 10,
         "categoria": {
             "id": "tazones",
             "nombre": "Tazones"
@@ -71,6 +77,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/grim.jpg",
         "descripcion": "Combo taza de té cons u respectivo plato.",
+        "stock": 4,
         "categoria": {
             "id": "tazas",
             "nombre": "Tazas"
@@ -82,6 +89,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/hapee.jpg",
         "descripcion": "Plato de cerámica pintado a mano con la frase Hapee Birthdae Harry.",
+        "stock": 3,
         "categoria": {
             "id": "platos",
             "nombre": "Platos"
@@ -93,6 +101,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/hedwing.jpg",
         "descripcion": "Taza importada, con relieve motivo Hedwing.",
+        "stock": 5,
         "categoria": {
             "id": "tazas",
             "nombre": "Tazas"
@@ -104,6 +113,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/hp-textura.jpg",
         "descripcion": "Taza importada, con diferentes figuras en relieve.",
+        "stock": 7,
         "categoria": {
             "id": "tazas",
             "nombre": "Tazas"
@@ -115,6 +125,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/muggles.jpg",
         "descripcion": "Taza enlozada 'I can't deal with muggles today' ",
+        "stock": 6,
         "categoria": {
             "id": "tazas",
             "nombre": "Tazas"
@@ -126,6 +137,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/platosolemny.jpg",
         "descripcion": "Plato de cerámica pintado a mano mapa del merodeador",
+        "stock": 2,
         "categoria": {
             "id": "platos",
             "nombre": "Platos"
@@ -137,6 +149,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/slytherin.jpg",
         "descripcion": "Plato de cerámica pintado a mano Slytherin.",
+        "stock": 5,
         "categoria": {
             "id": "platos",
             "nombre": "Platos"
@@ -148,6 +161,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/houses.jpg",
         "descripcion": "Tazas Houses. Cuatro modelos: Gryffindor, Slytherin, Hufflepuff, Ravenclaw.",
+        "stock": 7,
         "categoria": {
             "id": "tazas",
             "nombre": "Tazas"
@@ -159,6 +173,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/harry.jpg",
         "descripcion": "Tazón Harry con figura.",
+        "stock": 5,
         "categoria": {
             "id": "tazones",
             "nombre": "Tazones"
@@ -170,6 +185,7 @@
         "precio": 24.99,
         "imagen": "/src/assets/img/potion.jpg",
         "descripcion": "Tazones Potions rústicos. Dos motivos.",
+        "stock": 2,
         "categoria": {
             "id": "tazones",
             "nombre": "Tazones"

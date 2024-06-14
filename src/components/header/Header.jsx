@@ -8,9 +8,9 @@ export const Header = () => {
 
   return (
     <header className='header'>
-        <Link to="/"> <img className='logoImg' src={logo} alt="" /> </Link>
-    <NavBar />
-    <CartWidget/>
+      <Link to="/"> <img className='logoImg' src={logo} alt="" /> </Link>
+      <NavBar />
+      <CartWidget />
     </header>
   )
 }

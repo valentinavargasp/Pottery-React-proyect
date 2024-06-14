@@ -11,7 +11,7 @@ export const ItemListContainer = () => {
   let [productos, setProductos] = useState([]);
 
   let [titulo, setTitulo] = useState("Productos");
-  
+
   const pedirProductos = () => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
@@ -21,7 +21,7 @@ export const ItemListContainer = () => {
   }
 
   useEffect(() => {
-    
+
     pedirProductos()
       .then((res) => {
         if (!categoryId) {
@@ -32,7 +32,7 @@ export const ItemListContainer = () => {
           setProductos(res.filter((prod) => prod.categoria.id === categoryId));
         }
       })
-      
+
   }, [categoryId]);
 
   return (
