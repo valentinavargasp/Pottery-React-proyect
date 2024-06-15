@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavBar } from './NavBar'
-import logo from '../../assets/img/logo.svg'
+import logo from '../../assets/logo.svg'
 import { CartWidget } from './CartWidget'
 import { Link } from 'react-router-dom'
 

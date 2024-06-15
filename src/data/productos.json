@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "Taza Harry",
         "precio": 19.99,
-        "imagen": "/src/assets/img/glasses.jpg",
+        "imagen": "/public/img/glasses.jpg",
         "descripcion": "Taza de cerámica con relieve",
         "stock": 5,
         "categoria": {
@@ -15,7 +15,7 @@
         "id": 2,
         "nombre": "Taza Luna",
         "precio": 19.99,
-        "imagen": "/src/assets/img/luna.jpg",
+        "imagen": "/public/img/luna.jpg",
         "descripcion": "Taza de cerámica Luna Lovegood",
         "stock": 2,
         "categoria": {
@@ -27,7 +27,7 @@
         "id": 3,
         "nombre": "Taza 9 3/4",
         "precio": 19.99,
-        "imagen": "/src/assets/img/934.jpg",
+        "imagen": "/public/img/934.jpg",
         "descripcion": "Taza pintada a mano estación 9 3/4",
         "stock": 8,
         "categoria": {
@@ -39,7 +39,7 @@
         "id": 4,
         "nombre": "Plato Accio Rings",
         "precio": 19.99,
-        "imagen": "/src/assets/img/acciorings.jpg",
+        "imagen": "/public/img/acciorings.jpg",
         "descripcion": "Plato pequeño, ideal para ser utilizado como objeto decorativo.",
         "stock": 4,
         "categoria": {
@@ -51,7 +51,7 @@
         "id": 5,
         "nombre": "Tazón Potions",
         "precio": 24.99,
-        "imagen": "/src/assets/img/bowls.jpg",
+        "imagen": "/public/img/bowls.jpg",
         "descripcion": "Tazones Potions. Tres variedades: Love Potion, Wolfsbane Potion, Polyjuice Poison.",
         "stock": 5,
         "categoria": {
@@ -63,7 +63,7 @@
         "id": 6,
         "nombre": "Tazón Caldero",
         "precio": 24.99,
-        "imagen": "/src/assets/img/cauldron.jpg",
+        "imagen": "/public/img/cauldron.jpg",
         "descripcion": "Tazón caldero con tapa y cuchara pequeña.",
         "stock": 10,
         "categoria": {
@@ -75,7 +75,7 @@
         "id": 7,
         "nombre": "Combo Grim",
         "precio": 24.99,
-        "imagen": "/src/assets/img/grim.jpg",
+        "imagen": "/public/img/grim.jpg",
         "descripcion": "Combo taza de té cons u respectivo plato.",
         "stock": 4,
         "categoria": {
@@ -87,7 +87,7 @@
         "id": 8,
         "nombre": "Plato Hapee Birthdae Harry",
         "precio": 24.99,
-        "imagen": "/src/assets/img/hapee.jpg",
+        "imagen": "/public/img/hapee.jpg",
         "descripcion": "Plato de cerámica pintado a mano con la frase Hapee Birthdae Harry.",
         "stock": 3,
         "categoria": {
@@ -99,7 +99,7 @@
         "id": 9,
         "nombre": "Taza Hedwing",
         "precio": 24.99,
-        "imagen": "/src/assets/img/hedwing.jpg",
+        "imagen": "/public/img/hedwing.jpg",
         "descripcion": "Taza importada, con relieve motivo Hedwing.",
         "stock": 5,
         "categoria": {
@@ -111,7 +111,7 @@
         "id": 10,
         "nombre": "Taza HP con relieve",
         "precio": 24.99,
-        "imagen": "/src/assets/img/hp-textura.jpg",
+        "imagen": "/public/img/hp-textura.jpg",
         "descripcion": "Taza importada, con diferentes figuras en relieve.",
         "stock": 7,
         "categoria": {
@@ -123,7 +123,7 @@
         "id": 11,
         "nombre": "Taza Muggles",
         "precio": 24.99,
-        "imagen": "/src/assets/img/muggles.jpg",
+        "imagen": "/public/img/muggles.jpg",
         "descripcion": "Taza enlozada 'I can't deal with muggles today' ",
         "stock": 6,
         "categoria": {
@@ -135,7 +135,7 @@
         "id": 12,
         "nombre": "Plato Marauder's Map",
         "precio": 24.99,
-        "imagen": "/src/assets/img/platosolemny.jpg",
+        "imagen": "/public/img/platosolemny.jpg",
         "descripcion": "Plato de cerámica pintado a mano mapa del merodeador",
         "stock": 2,
         "categoria": {
@@ -147,7 +147,7 @@
         "id": 13,
         "nombre": "Plato Slytherin",
         "precio": 24.99,
-        "imagen": "/src/assets/img/slytherin.jpg",
+        "imagen": "/public/img/slytherin.jpg",
         "descripcion": "Plato de cerámica pintado a mano Slytherin.",
         "stock": 5,
         "categoria": {
@@ -159,7 +159,7 @@
         "id": 14,
         "nombre": "Tazas Houses",
         "precio": 24.99,
-        "imagen": "/src/assets/img/houses.jpg",
+        "imagen": "/public/img/houses.jpg",
         "descripcion": "Tazas Houses. Cuatro modelos: Gryffindor, Slytherin, Hufflepuff, Ravenclaw.",
         "stock": 7,
         "categoria": {
@@ -171,7 +171,7 @@
         "id": 15,
         "nombre": "Tazón Harry",
         "precio": 24.99,
-        "imagen": "/src/assets/img/harry.jpg",
+        "imagen": "/public/img/harry.jpg",
         "descripcion": "Tazón Harry con figura.",
         "stock": 5,
         "categoria": {
@@ -183,7 +183,7 @@
         "id": 16,
         "nombre": "Tazón Potion Rústico",
         "precio": 24.99,
-        "imagen": "/src/assets/img/potion.jpg",
+        "imagen": "/public/img/potion.jpg",
         "descripcion": "Tazones Potions rústicos. Dos motivos.",
         "stock": 2,
         "categoria": {

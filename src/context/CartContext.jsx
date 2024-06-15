@@ -28,6 +28,22 @@ export const CartProvider = ({ children }) => {
         return carrito.reduce((acc, producto) => acc + producto.precio * producto.cantidad, 0);
     };
 
+    const restarCantidadProducto = (producto) => {
+        const nuevoCarrito = carrito.map(item =>
+            item.id === producto.id ? { ...item, cantidad: item.cantidad - 1 } : item
+        ).filter(item => item.cantidad > 0);
+        setCarrito(nuevoCarrito);
+    };
+
+    const eliminarProducto = (producto) => {
+        const productoEliminar = carrito.find(prod => prod.id === producto.id)
+        const indice = carrito.indexOf(productoEliminar);
+        
+        const nuevoCarrito = [...carrito];
+        nuevoCarrito.splice(indice, 1);
+        setCarrito(nuevoCarrito);
+    };
+
     const vaciarCarrito = () => {
         setCarrito([]);
     };
@@ -37,7 +53,7 @@ export const CartProvider = ({ children }) => {
     }, [carrito]);
 
     return (
-        <CartContext.Provider value={{ carrito, agregarCarrito, calcularCantidad, calcularTotal, vaciarCarrito }}>
+        <CartContext.Provider value={{ carrito, agregarCarrito, calcularCantidad, calcularTotal, vaciarCarrito, restarCantidadProducto, eliminarProducto }}>
             {children}
         </CartContext.Provider>
     );

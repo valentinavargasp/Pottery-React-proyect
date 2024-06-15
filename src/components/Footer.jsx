@@ -1,5 +1,5 @@
 import React from 'react'
-import logofooter from '../assets/img/logo.svg'
+import logofooter from '../assets/logo.svg'
 export const Footer = () => {
   return (
     <div className='footer'>
