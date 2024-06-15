@@ -27,7 +27,7 @@ export const ItemDetail = ({ producto }) => {
                 <div className='cardFooter'>
                     <p>${producto.precio}</p>
                 </div>
-                <ItemCount 
+                <ItemCount
                     cantidad={cantidad}
                     handleSumar={handleSumar}
                     handleRestar={handleRestar}

@@ -38,7 +38,7 @@ export const CartProvider = ({ children }) => {
     const eliminarProducto = (producto) => {
         const productoEliminar = carrito.find(prod => prod.id === producto.id)
         const indice = carrito.indexOf(productoEliminar);
-        
+
         const nuevoCarrito = [...carrito];
         nuevoCarrito.splice(indice, 1);
         setCarrito(nuevoCarrito);

@@ -32,7 +32,7 @@ export const Item = ({ producto }) => {
                 <div className='cardFooter'>
                     <p>${producto.precio}</p>
                     <Link to={`/item/${producto.id}`}>Ver más</Link>
-                    <ItemCount 
+                    <ItemCount
                         cantidad={cantidad}
                         handleSumar={handleSumar}
                         handleRestar={handleRestar}
