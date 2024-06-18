@@ -34,8 +34,9 @@ export const ItemListContainer = () => {
 
   return (
     <div className="productosContainer">
-      <h1>{titulo}</h1>
-      <ItemList productos={productos} />
+        <h1>{titulo}</h1>
+        <ItemList productos={productos} />
+
     </div>
   );
 };

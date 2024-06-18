@@ -1,8 +1,10 @@
 import React, { useContext, useState } from 'react'
 import { CartContext } from '../context/CartContext';
 import { useForm } from 'react-hook-form';
-import { collection, addDoc, serverTimestamp, Timestamp } from 'firebase/firestore';
+import { collection, addDoc, Timestamp } from 'firebase/firestore';
 import { db } from '../firebase/config';
+import reliquias from '../assets/reliquias.png'
+
 
 export const Checkout = () => {
 
@@ -28,21 +30,29 @@ export const Checkout = () => {
 
     if (docId) {
         return (
-            <>
-                <h2> Travesura realizada 🧙🏼‍♂️🦉</h2>
-                <h3>Hacé el seguimiento de tu pedido con el siguiente código: {docId} </h3>
-            </>
-        )
-    }
+            <div className='sectionTravesura'>
+                <div className='travesuraRealizada'>
+                    <h2>Travesura realizada 🧙🏼‍♂️🦉</h2>
+                    <h3>Hacé el seguimiento de tu pedido con el siguiente código:</h3>
+                    <p className='codigo'>{docId}</p>
+                    <button className='btn' onClick={() => window.location.href = '/'}>Volver a la tienda</button>
+                </div>
+            </div>
+        );
+    };
 
     return (
-        <div>
-            <form onSubmit={handleSubmit(comprar)}>
-                <input type='text' placeholder='Nombre'{...register('nombre')} />
-                <input type='text' placeholder='Apellido' {...register('apellido')} />
-                <input type='email' placeholder='E-mail'{...register('email')} />
-                <button type='submit'>Comprar</button>
-            </form>
+        <div className='formularioSection'>
+            <img src={reliquias} />
+            <h3> Checkout</h3>
+            <div className='formularioCheckout'>
+                <form onSubmit={handleSubmit(comprar)}>
+                    <input type='text' placeholder='Nombre'{...register('nombre')} />
+                    <input type='text' placeholder='Apellido' {...register('apellido')} />
+                    <input type='email' placeholder='E-mail'{...register('email')} />
+                    <button type='submit'>Comprar</button>
+                </form>
+            </div>
         </div>
     )
 }

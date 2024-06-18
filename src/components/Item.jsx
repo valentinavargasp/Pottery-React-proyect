@@ -26,12 +26,16 @@ export const Item = ({ producto }) => {
     return (
         <div className='containerCards'>
             <div className="producto">
-                <img className="imgProducto" src={producto.imagen} alt={producto.nombre} />
-                <h2>{producto.nombre}</h2>
-                <p>{producto.descripcion}</p>
+                <div className='imageProducto'>
+                    <img className="imgProducto" src={producto.imagen} alt={producto.nombre} />
+                </div>
+                <div className='detailsProducto'>
+                    <h2>{producto.nombre}</h2>
+                    <p>{producto.descripcion}</p>
+                    <Link to={`/item/${producto.id}`}>Ver más</Link>
+                </div>
                 <div className='cardFooter'>
                     <p>${producto.precio}</p>
-                    <Link to={`/item/${producto.id}`}>Ver más</Link>
                     <ItemCount
                         cantidad={cantidad}
                         handleSumar={handleSumar}
@@ -39,9 +43,8 @@ export const Item = ({ producto }) => {
                         handleAgregar={handleAgregar}
                     />
                 </div>
+
             </div>
         </div>
     );
 };
-
-

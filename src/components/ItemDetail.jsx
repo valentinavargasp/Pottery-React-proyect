@@ -19,20 +19,25 @@ export const ItemDetail = ({ producto }) => {
     };
 
     return (
-        <div className='containerCards'>
-            <div className="producto">
-                <img className="imgProducto" src={producto.imagen} alt={producto.nombre} />
-                <h2>{producto.nombre}</h2>
-                <p>{producto.descripcion}</p>
-                <div className='cardFooter'>
-                    <p>${producto.precio}</p>
+        <div className='containerDetail'>
+            <div className="productoDetail">
+                <div className='imageProductoDetail'>
+                    <img src={producto.imagen} alt={producto.nombre} />
                 </div>
-                <ItemCount
-                    cantidad={cantidad}
-                    handleSumar={handleSumar}
-                    handleRestar={handleRestar}
-                    handleAgregar={handleAgregar}
-                />
+                <div className='detailsProductoDetail'>
+                    <h2>{producto.nombre}</h2>
+                    <p>{producto.descripcion}</p>
+                    <div className='cardFooterDetail'>
+                        <p>${producto.precio}</p>
+                    </div>
+                    <ItemCount
+                        cantidad={cantidad}
+                        handleSumar={handleSumar}
+                        handleRestar={handleRestar}
+                        handleAgregar={handleAgregar}
+                    />
+                </div>
+
             </div>
         </div>
     );
