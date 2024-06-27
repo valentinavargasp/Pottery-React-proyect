@@ -51,6 +51,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente.
 ## Estructura del Proyecto
 
 - **public/**: Contiene archivos estáticos públicos.
+  - **img/**: Contiene imágenes públicas.
 - **src/**: Directorio principal del proyecto que contiene los componentes y estilos.
   - **assets/**: Imágenes y otros recursos estáticos.
   - **components/**: Componentes reutilizables de la aplicación.
