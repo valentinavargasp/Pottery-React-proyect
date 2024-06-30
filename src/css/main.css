@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+@font-face {
+    font-family: 'Harry';
+    src: url(../assets/fonts/Harry.TTF);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,20 +15,29 @@
 a {
     color: #f0f0f0;
     text-decoration: none;
+
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #183425c7;
     padding: 1rem;
+    width: 100%;
 }
 
-.menuNav {
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav {
     display: flex;
     list-style-type: none;
     gap: 3rem;
+    width: 100%;
+    justify-content: center;
 }
 
 .navLink {
@@ -43,6 +57,7 @@ a {
 
 .navLink.active {
     font-weight: bold;
+    color: #FEFBF6 !important;
 }
 
 .logoImg {
@@ -50,12 +65,53 @@ a {
     margin-left: 15px;
 }
 
-.Cart {
-    width: 100px;
+.cart-widget {
+    display: flex;
+    align-items: center;
 }
 
 .Cart img {
     width: 25px;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: '';
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-toggler-icon::before {
+    top: -8px;
+}
+
+.navbar-toggler-icon::after {
+    top: 8px;
 }
 
 .productosContainer {
@@ -291,7 +347,7 @@ a {
 }
 
 .hero-title {
-    font-family: 'Harry P', serif;
+    font-family: 'Harry';
     font-size: 5rem;
 }
 
@@ -383,9 +439,19 @@ a {
 }
 
 .totalCarrito a {
-    color: #76290b;
-    font-family: 'Harry P';
-    font-size: 3rem;
+    font-family: 'Harry';
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.totalCarrito a:hover {
+    background-color: #76290b;
 }
 
 .vaciarCarrito {
@@ -427,6 +493,7 @@ a {
     padding: 20px;
     gap: 20px;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .formularioSection h3 {
@@ -471,11 +538,12 @@ a {
 .formularioCheckout button {
     padding: 10px 20px;
     background-color: #2C3E50;
+    font-family: 'Harry';
     width: 150px;
     color: white;
     border: none;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -506,7 +574,7 @@ a {
 .travesuraRealizada h2 {
     font-size: 40px;
     color: #2C3E50;
-    font-family: 'Harry P';
+    font-family: 'Harry';
     margin-bottom: 20px;
 }
 
@@ -555,5 +623,22 @@ a {
 @media (max-width: 768px) {
     .productosGrilla {
         grid-template-columns: 1fr;
+    }
+
+    .navbar-toggler {
+        order: 1;
+    }
+
+    .navbar-brand {
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .cart-widget {
+        order: 3;
+    }
+
+    .navbar-collapse {
+        order: 4;
     }
 }
