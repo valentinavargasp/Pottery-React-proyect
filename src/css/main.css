@@ -649,6 +649,6 @@ a {
         width: auto;
     }
     .carritoDetail .itemCount {
-        flex-direction: column;
+        gap: 5px;
     }
 }
