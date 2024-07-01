@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
+import toast from 'react-hot-toast';
 
 export const CartContext = createContext();
 
@@ -18,6 +19,8 @@ export const CartProvider = ({ children }) => {
             nuevoCarrito.push(itemAgregado);
         }
         setCarrito(nuevoCarrito);
+        toast.success(`${producto.nombre} agregado al carrito`);
+        
     };
 
     const calcularCantidad = () => {

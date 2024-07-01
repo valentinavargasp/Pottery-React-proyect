@@ -10,6 +10,7 @@ import { CartProvider } from './context/CartContext';
 import { Checkout } from './components/Checkout';
 import { CargarProductos } from './components/CargarProductos';
 import { Hero } from './components/Hero';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
 
@@ -28,6 +29,10 @@ function App() {
           <Route path="/*" element={<NotFound />} />
         </Routes>
         <Footer />
+        <Toaster
+          position="bottom-right"
+          reverseOrder={false}
+        />
       </BrowserRouter>
     </CartProvider>
 
