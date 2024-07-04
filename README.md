@@ -1,8 +1,7 @@
 [![Pottery Store](https://firebasestorage.googleapis.com/v0/b/pottery-e-commerce-d6db2.appspot.com/o/potery-store.png?alt=media&token=b14ed33b-66b2-4699-9e7f-6167515fca0c "Pottery Store")](http://gs://pottery-e-commerce-d6db2.appspot.com/potery-store.png "Pottery Store")
 
 # **Pottery Store** | Proyecto realizado para el curso de React Coderhouse.
-##### Pottery Store es una tienda en línea que ofrece una variedad de productos inspirados en el universo de Harry Potter. Se pueden encontrar tazas, platos, tazones y más, todos diseñados con temática de Harry Potter.#### Pottery Store es una tienda en línea que ofrece una variedad de productos inspirados en el universo de Harry Potter. Se pueden encontrar tazas, platos, tazones y más, todos diseñados con temática de Harry Potter. 
-
+##### Pottery Store es una tienda en línea que ofrece una variedad de productos inspirados en el universo de Harry Potter. Se pueden encontrar tazas, platos, tazones y más, todos diseñados con temática de Harry Potter.
 ## Tabla de Contenidos
 
 - [Instalación](#instalación)
